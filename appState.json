@@ -1,0 +1,129 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "e42ef4ff-bfd7-42c2-8852-fc6a8aff8642": {
+        "id": "e42ef4ff-bfd7-42c2-8852-fc6a8aff8642",
+        "parent": null,
+        "name": "testyVirgIndd",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "8731ed4e-7c58-47b4-b45f-f10aaaf4ae49"
+        ],
+        "isRemovable": false,
+        "filePath": "testyVirgIndd"
+      },
+      "8731ed4e-7c58-47b4-b45f-f10aaaf4ae49": {
+        "id": "8731ed4e-7c58-47b4-b45f-f10aaaf4ae49",
+        "parent": "e42ef4ff-bfd7-42c2-8852-fc6a8aff8642",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testyVirgIndd/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameqaany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "e42ef4ff-bfd7-42c2-8852-fc6a8aff8642",
+    "openFiles": [
+      "8731ed4e-7c58-47b4-b45f-f10aaaf4ae49"
+    ],
+    "currentFileId": "8731ed4e-7c58-47b4-b45f-f10aaaf4ae49",
+    "resources": {
+      "apigusEast1sachithraAPInameqaany": {
+        "name": "apigusEast1sachithraAPInameqaany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/qa/indu": "0j9rt3",
+            "/1111": "0rjsnt",
+            "/qa": "d6y9e8",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/qa",
+          "resourceName": "qa",
+          "resourceId": "d6y9e8",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "TestM",
+          "stageDeploymentId": "z6dz53",
+          "mode": 1
+        }
+      },
+      "s3induniltrigger": {
+        "name": "s3induniltrigger",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "indunil.trigger"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "javascript",
+          "version": "2.176.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testyVirgIndd",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1581487208999
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testyVirgIndd",
+      "url": "https://github.com/Indunil1992/testyVirgIndd"
+    }
+  }
+}
